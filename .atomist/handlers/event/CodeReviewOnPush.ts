@@ -7,7 +7,7 @@ import { Tag } from "@atomist/cortex/Tag";
 /**
  * A Run code analysis.
  */
-@EventHandler("CodeReviewOnPush", "Run code analysis", "/Tag()")
+@EventHandler("CodeReviewOnPush", "Run code analysis", "/Push()")
 @Tags("documentation")
 export class CodeReviewOnPush implements HandleEvent<Tag, Tag> {
     public handle(event: Match<Tag, Tag>): EventPlan {
