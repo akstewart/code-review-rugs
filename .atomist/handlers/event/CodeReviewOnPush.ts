@@ -1,7 +1,6 @@
 import { EventHandler, Tags } from "@atomist/rug/operations/Decorators";
 import { ChannelAddress, DirectedMessage, EventPlan, HandleEvent } from "@atomist/rug/operations/Handlers";
 import { Match } from "@atomist/rug/tree/PathExpression";
-
 import { Tag } from "@atomist/cortex/Tag";
 
 /**
